@@ -1,0 +1,8 @@
+{
+  "id": "developer",
+  "name": "Developer",
+  "description": "Solide Entwicklerbasis fuer Code, Terminal und Skripte.",
+  "packages": ["git", "vscode", "python", "nodejs", "windows-terminal", "7zip"],
+  "folders": ["C:\\DEV", "C:\\DEV\\Projects", "C:\\DEV\\Tools"],
+  "notes": ["Empfohlenes Standardprofil fuer v0.1.0."]
+}

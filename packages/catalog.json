@@ -1,0 +1,352 @@
+[
+  {
+    "id": "chrome",
+    "name": "Google Chrome",
+    "category": "Browser",
+    "winget_id": "Google.Chrome",
+    "description": "Weit verbreiteter Browser von Google.",
+    "recommended_for": ["clean", "developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "category": "Browser",
+    "winget_id": "Mozilla.Firefox",
+    "description": "Open-Source-Browser mit guter Datenschutzbasis.",
+    "recommended_for": ["clean", "developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "brave",
+    "name": "Brave",
+    "category": "Browser",
+    "winget_id": "Brave.Brave",
+    "description": "Browser mit integriertem Tracking-Schutz.",
+    "recommended_for": ["clean", "developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Entwicklung",
+    "winget_id": "Git.Git",
+    "description": "Versionsverwaltung fuer Code und Projekte.",
+    "recommended_for": ["developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "category": "Entwicklung",
+    "winget_id": "Microsoft.VisualStudioCode",
+    "description": "Editor fuer Entwicklung, Skripte und Codex-Workflows.",
+    "recommended_for": ["developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Entwicklung",
+    "winget_id": "Python.Python.3.12",
+    "description": "Python-Laufzeit fuer Tools, Automationen und KI-Projekte.",
+    "recommended_for": ["developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js LTS",
+    "category": "Entwicklung",
+    "winget_id": "OpenJS.NodeJS.LTS",
+    "description": "JavaScript-Laufzeit fuer moderne Web- und Tool-Projekte.",
+    "recommended_for": ["developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "windows-terminal",
+    "name": "Windows Terminal",
+    "category": "Entwicklung",
+    "winget_id": "Microsoft.WindowsTerminal",
+    "description": "Modernes Terminal fuer PowerShell, CMD und WSL.",
+    "recommended_for": ["developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "category": "Entwicklung",
+    "winget_id": "7zip.7zip",
+    "description": "Archivtool fuer ZIP, 7z und weitere Formate.",
+    "recommended_for": ["clean", "developer", "ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "powertoys",
+    "name": "Microsoft PowerToys",
+    "category": "System",
+    "winget_id": "Microsoft.PowerToys",
+    "description": "Produktivitaetswerkzeuge fuer Windows.",
+    "recommended_for": ["extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "everything",
+    "name": "Everything",
+    "category": "System",
+    "winget_id": "voidtools.Everything",
+    "description": "Sehr schnelle Dateisuche fuer Windows.",
+    "recommended_for": ["extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "hwinfo",
+    "name": "HWiNFO",
+    "category": "System",
+    "winget_id": "REALiX.HWiNFO",
+    "description": "Hardwareinformationen und Sensorwerte.",
+    "recommended_for": ["extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "crystaldiskinfo",
+    "name": "CrystalDiskInfo",
+    "category": "System",
+    "winget_id": "CrystalDewWorld.CrystalDiskInfo",
+    "description": "SMART-Status und Laufwerksgesundheit anzeigen.",
+    "recommended_for": ["extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "wiztree",
+    "name": "WizTree",
+    "category": "System",
+    "winget_id": "AntibodySoftware.WizTree",
+    "description": "Speicherplatzanalyse fuer Laufwerke.",
+    "recommended_for": ["extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "github-cli",
+    "name": "GitHub CLI",
+    "category": "AI/Codex",
+    "winget_id": "GitHub.cli",
+    "description": "GitHub-Funktionen direkt aus dem Terminal.",
+    "recommended_for": ["ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": true
+  },
+  {
+    "id": "docker-desktop",
+    "name": "Docker Desktop",
+    "category": "AI/Codex",
+    "winget_id": "Docker.DockerDesktop",
+    "description": "Container-Plattform fuer lokale Entwicklungsumgebungen.",
+    "recommended_for": ["ai-codex", "extem"],
+    "requires_admin": true,
+    "enabled_by_default": false
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "category": "AI/Codex",
+    "winget_id": "Ollama.Ollama",
+    "description": "Lokale LLM-Laufzeit fuer KI-Experimente.",
+    "recommended_for": ["ai-codex", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "category": "Gaming",
+    "winget_id": "Valve.Steam",
+    "description": "Gaming-Plattform und Spielebibliothek von Valve.",
+    "recommended_for": ["gaming", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "epic-games",
+    "name": "Epic Games Launcher",
+    "category": "Gaming",
+    "winget_id": "EpicGames.EpicGamesLauncher",
+    "description": "Launcher fuer Epic Games Store und Unreal-Projekte.",
+    "recommended_for": ["gaming", "creator"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "gog-galaxy",
+    "name": "GOG Galaxy",
+    "category": "Gaming",
+    "winget_id": "GOG.Galaxy",
+    "description": "Spielelauncher fuer GOG und verbundene Bibliotheken.",
+    "recommended_for": ["gaming"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "category": "Gaming",
+    "winget_id": "Discord.Discord",
+    "description": "Voice-, Chat- und Community-App fuer Gaming und Teams.",
+    "recommended_for": ["gaming", "creator", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "category": "Grafikdesign/Creator",
+    "winget_id": "GIMP.GIMP",
+    "description": "Bildbearbeitung fuer Fotos, Grafiken und Webassets.",
+    "recommended_for": ["creator"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "category": "Grafikdesign/Creator",
+    "winget_id": "KDE.Krita",
+    "description": "Zeichen- und Painting-App fuer Illustration und Concept Art.",
+    "recommended_for": ["creator"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "category": "Grafikdesign/Creator",
+    "winget_id": "Inkscape.Inkscape",
+    "description": "Vektorgrafik-Editor fuer SVG, Logos und technische Grafiken.",
+    "recommended_for": ["creator"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "category": "Grafikdesign/Creator",
+    "winget_id": "BlenderFoundation.Blender",
+    "description": "3D-Modelling, Rendering, Animation und Asset-Erstellung.",
+    "recommended_for": ["creator", "gaming"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "category": "Grafikdesign/Creator",
+    "winget_id": "OBSProject.OBSStudio",
+    "description": "Aufnahme- und Streaming-Studio fuer Desktop, Games und Tutorials.",
+    "recommended_for": ["creator", "gaming"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "vlc",
+    "name": "VLC media player",
+    "category": "Medien",
+    "winget_id": "VideoLAN.VLC",
+    "description": "Robuster Media Player fuer viele Audio- und Videoformate.",
+    "recommended_for": ["clean", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "category": "Medien",
+    "winget_id": "Spotify.Spotify",
+    "description": "Musik- und Podcast-Client.",
+    "recommended_for": ["personal"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "category": "Office/Finanzen",
+    "winget_id": "TheDocumentFoundation.LibreOffice",
+    "description": "Office-Suite fuer Dokumente, Tabellen und Praesentationen.",
+    "recommended_for": ["office", "finance", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "sumatrapdf",
+    "name": "SumatraPDF",
+    "category": "Office/Finanzen",
+    "winget_id": "SumatraPDF.SumatraPDF",
+    "description": "Leichter PDF-, eBook- und Dokumentenviewer.",
+    "recommended_for": ["office", "finance", "clean"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "tradingview",
+    "name": "TradingView Desktop",
+    "category": "Trading/Crypto",
+    "winget_id": "TradingView.TradingViewDesktop",
+    "description": "Charting- und Marktanalyse-Desktop-App. Optional und bewusst pruefen.",
+    "recommended_for": ["trading"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "ledger-live",
+    "name": "Ledger Live",
+    "category": "Trading/Crypto",
+    "winget_id": "LedgerHQ.LedgerLive",
+    "description": "Crypto-Wallet-Verwaltung. Nur installieren, wenn die Quelle bewusst vertraut wird.",
+    "recommended_for": ["crypto"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "Produktivitaet/Kommunikation",
+    "winget_id": "Notion.Notion",
+    "description": "Workspace fuer Notizen, Planung und Dokumentation.",
+    "recommended_for": ["office", "creator", "extem"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "category": "Produktivitaet/Kommunikation",
+    "winget_id": "Obsidian.Obsidian",
+    "description": "Markdown-basierte Wissensdatenbank und Notizen-App.",
+    "recommended_for": ["developer", "ai-codex", "office"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  },
+  {
+    "id": "thunderbird",
+    "name": "Mozilla Thunderbird",
+    "category": "Produktivitaet/Kommunikation",
+    "winget_id": "Mozilla.Thunderbird",
+    "description": "Mail-, Kalender- und Kontakte-Client.",
+    "recommended_for": ["office", "finance"],
+    "requires_admin": false,
+    "enabled_by_default": false
+  }
+]

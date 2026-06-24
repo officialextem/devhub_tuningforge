@@ -1,0 +1,31 @@
+from __future__ import annotations
+
+
+BACKGROUND = "#05040a"
+SURFACE = "#0d0916"
+PANEL = "#141020"
+PANEL_ALT = "#1d1330"
+CARD = "#160f25"
+BORDER = "#33224d"
+BORDER_ACTIVE = "#38e6f2"
+TEXT = "#f4f0ff"
+TEXT_MUTED = "#a99fbc"
+ACCENT_CYAN = "#38e6f2"
+ACCENT_MINT = "#6cff9a"
+ACCENT_PURPLE = "#8758ff"
+ERROR = "#ff4f8b"
+WARNING = "#ffd95a"
+SUCCESS = "#6cff9a"
+INFO = "#f4f0ff"
+
+LOG_LEVEL_COLORS = {
+    "INFO": INFO,
+    "SUCCESS": SUCCESS,
+    "WARNING": WARNING,
+    "ERROR": ERROR,
+}
+
+PRIMARY_BUTTON = "#5e42c6"
+PRIMARY_BUTTON_HOVER = "#6f52ec"
+SECONDARY_BUTTON = "#1d1330"
+SECONDARY_BUTTON_HOVER = "#271842"

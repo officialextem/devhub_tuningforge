@@ -1,0 +1,8 @@
+{
+  "id": "extem",
+  "name": "ExTeM Full Setup",
+  "description": "AI/Codex-Profil plus Systemwerkzeuge fuer einen kompletten Arbeitsplatz.",
+  "packages": ["git", "vscode", "python", "nodejs", "windows-terminal", "7zip", "github-cli", "powertoys", "everything", "hwinfo", "crystaldiskinfo", "wiztree"],
+  "folders": ["C:\\DEV", "C:\\DEV\\Projects", "C:\\DEV\\AI", "C:\\DEV\\Backups", "C:\\DEV\\Tools", "C:\\DEV\\Reports"],
+  "notes": ["Keine tiefen Windows-Tweaks im MVP.", "Remote-Zugriff bleibt Opt-in fuer spaetere Versionen."]
+}

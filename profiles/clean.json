@@ -1,0 +1,8 @@
+{
+  "id": "clean",
+  "name": "Clean",
+  "description": "Minimaler Start mit Basiswerkzeugen.",
+  "packages": ["firefox", "7zip"],
+  "folders": ["C:\\DEV", "C:\\DEV\\Backups"],
+  "notes": ["Keine Tweaks im MVP.", "Keine Remote-Funktionen."]
+}

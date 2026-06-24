@@ -1,0 +1,8 @@
+{
+  "id": "ai-codex",
+  "name": "AI/Codex Workstation",
+  "description": "Developer-Profil plus Werkzeuge fuer Codex- und KI-Projekte.",
+  "packages": ["git", "vscode", "python", "nodejs", "windows-terminal", "7zip", "github-cli"],
+  "folders": ["C:\\DEV", "C:\\DEV\\Projects", "C:\\DEV\\AI", "C:\\DEV\\Backups", "C:\\DEV\\Tools"],
+  "notes": ["Docker Desktop und Ollama bleiben im MVP optional."]
+}

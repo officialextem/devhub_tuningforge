@@ -1,0 +1,21 @@
+[project]
+name = "devhub-tuningforge"
+version = "0.9.2"
+description = "DEVHub TuningForge v0.9.2 - German-first Windows setup, repair, diagnostics, dry-run gating and MSINFO32 SystemInfo export preview."
+requires-python = ">=3.11"
+dependencies = [
+    "customtkinter>=5.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools]
+packages = ["app", "core"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--basetemp=work/pytest-tmp -p no:cacheprovider"
